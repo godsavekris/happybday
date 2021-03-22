@@ -1,0 +1,206 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    
+    background: linear-gradient(rgb(166, 203, 255), rgb(253, 174, 214));
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+
+
+.container{
+    flex: 33%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+.banner{
+    justify-content: center;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    background-color:   rgb(175, 202, 240);
+    margin: 10px;
+    padding: 15px;
+}
+
+.banner_txt{
+  font-size: 48px;
+  font-family: serif;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+}
+
+.img_heart{
+    width: 330px;
+    height: 150px;
+}
+
+.img_tebe{
+  width: 420px;
+  height: 240px;
+  margin-left: 40px;
+}
+
+.gif{
+    padding-left: 50px;
+    width: 390px;
+    height: 450px;
+}
+
+.gif_confeti{
+    width: 450px;
+    height: 100px;
+}
+
+.content {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .content>h2 {
+    color: blue;
+  }
+
+  .content>p{
+    font-size: 35px;
+  }
+
+  .content_choose{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .content_choose>p{
+    font-size: 35px;
+  }
+
+  .content_choose2{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .smile{
+      width: 90px;
+      height: 90px;
+  }
+
+  .smile_2{
+    width: 90px;
+    height: 95px;
+  }
+  
+
+  .smile_3{
+    width: 120px;
+    height: 100px;
+  }
+
+  .smile_4{
+    width: 90px;
+    height: 80px;
+  }
+
+  .kiss{
+    width: 230px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  
+  .content>label {
+    padding-right: 30px;
+  }
+   
+.kissgif{
+    width: 400px;
+    height: 428px;
+}
+
+.otkr{
+  height: 634px;
+  width: 450px;
+}
+
+
+a {
+  font-size: 43px;
+    color: rgb(252, 92, 172);
+}
+
+.oaoamo{
+  font-size: 70px;
+  background: -webkit-linear-gradient(red, yellow, green, blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 30px;
+}
+
+
+
+footer {
+    justify-content: center;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: row;
+    background-color: rgb(247, 179, 213);
+    margin: 10px;
+
+  }
+
+
+
+.grid{
+  flex: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  @media screen and (max-width: 575px) {
+  .grid{
+  flex-direction: column;
+  }
+  }
+
+  @media screen and (max-width: 575px) {
+    .image{
+    width: 30%;
+    height: 30%;
+    }
+    }
+
+   
+    @media screen and (max-width: 575px) {
+     .banner_txt{
+      width: 50%;
+      height: 20%;
+      }
+      }
